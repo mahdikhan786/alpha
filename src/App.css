@@ -14,12 +14,12 @@ body{
   align-items:center;
 }
 .main-container{
-  color:rgb(148, 144, 144);
+  color:rgb(60, 64, 64);
   padding:20px;
   width:70vw;
-  background:rgb(106, 18, 141);
-  box-shadow:inset 0px 0px 20px -5px black;
-  border-radius:1px;
+  background:white;
+  box-shadow: 3px 2px 14px -3px rgb(128, 125, 125) ;
+  border-radius:3px;
 }
 .main-heading{
   font-size:22px;
@@ -27,9 +27,28 @@ text-align: center;
 text-transform: uppercase;
 margin-bottom:20px;
 }
+
 .main-para{
   text-align:center;
   font-weight:bold;
   font-size:18px;
-  
+}
+.profile-link{
+font-weight:bold;
+font-size:13px;
+  width:50%;
+  margin:10px 0px 10px 25%;
+  box-shadow:0px 0px 10px -5px black;
+  border-radius:5px;
+  display:block;
+  padding:10px 20px;
+  text-align:center;
+  color:red;
+  text-decoration:none;
+  letter-spacing:2px;
+}
+.profile-link:hover{
+  color:green;
+  box-shadow:inset 0px 0px 15px -5px black;
+  background:white;
 }
